@@ -1,6 +1,6 @@
  let str="naman";
 let new_str="";
-for(i=str.length;i<=0;i--){
+for(i=str.length;i>=0;i--){
 new_str+=str[i]
 }
 if(str==new_str){
@@ -16,7 +16,7 @@ for(i=0;i<num.length;i++){
 if(num%i==0){
 count++
 }
-if(count==0){
+if(count==2){
 console.log("Yes")
 }else{
 console.log("No")
